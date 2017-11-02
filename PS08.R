@@ -39,10 +39,11 @@ n_vec <- c (rep(1000, 5), rep(3000, 5), rep(7500, 5), rep(10000, 5), rep(30000, 
 
 
 
-#n set to 15,000, k set to 200 max.
+
 
 # Time knn here -----------------------------------------------------------
 
+#Max value of n that R will run for this loop is around 500,000
 
 PS_runtime = list()
 for (j in n_values) {
